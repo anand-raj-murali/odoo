@@ -5,6 +5,8 @@ from datetime import datetime
 class CustomerComplaint(models.Model):
 	_name = "sale_customer_complaint_ssg.customercomplaint"
 	_description = "Customer Complaints"
+	_rec_name = 'customer'
+	_table = 'ssg_customer_complaint'
 
 	@api.onchange('customer')
 	def onchange_customer(self):
