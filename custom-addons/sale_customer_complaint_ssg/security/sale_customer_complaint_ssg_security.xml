@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-	<record id="create_customer_complaint_access" model="res.groups">
-		<field name="name">Manage Customer Complaints</field>
-	</record>
-	<record id="view_customer_complaint_access" model="res.groups">
-		<field name="name">View Customer Complaints</field>
-	</record>
-</odoo>
