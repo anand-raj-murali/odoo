@@ -1,0 +1,3 @@
+[submodule "ssg-odoo-addons"]
+	path = ssg-odoo-addons
+	url = https://github.com/solar-service-guys/ssg-odoo-addons.git
